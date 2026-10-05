@@ -1,0 +1,93 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Spice Garden",
+      "location": "Visakhapatnam",
+      "cuisine": "Indian",
+      "rating": 4.5,
+      "priceForTwo": 500,
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+      "description": "A popular restaurant serving delicious Indian dishes."
+    },
+    {
+      "id": "2",
+      "name": "Food Paradise",
+      "location": "Visakhapatnam",
+      "cuisine": "Chinese",
+      "rating": 4.2,
+      "priceForTwo": 600,
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9",
+      "description": "Enjoy tasty Chinese food in a comfortable atmosphere."
+    },
+    {
+      "id": "3",
+      "name": "The Tasty Kitchen",
+      "location": "Visakhapatnam",
+      "cuisine": "South Indian",
+      "rating": 4.7,
+      "priceForTwo": 400,
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+      "description": "Authentic South Indian food prepared with fresh ingredients."
+    },
+    {
+      "id": "4",
+      "name": "Urban Bites",
+      "location": "Hyderabad",
+      "cuisine": "Fast Food",
+      "rating": 4.1,
+      "priceForTwo": 350,
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f",
+      "description": "A casual restaurant offering burgers, fries and more."
+    },
+    {
+      "id": "5",
+      "name": "Royal Dine",
+      "location": "Vijayawada",
+      "cuisine": "Biryani",
+      "rating": 4.6,
+      "priceForTwo": 700,
+      "budget": "High",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+      "description": "Famous for delicious biryani and traditional Indian cuisine."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Kusuma",
+      "email": "kusuma@example.com",
+      "password": "123456",
+      "role": "customer"
+    },
+    {
+      "id": "2",
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "name": "Kusuma",
+      "email": "kusumapriya2005@gmail.com",
+      "password": "Kusuma@02",
+      "role": "customer"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "restaurantId": "1",
+      "userId": "1",
+      "date": "2026-09-20",
+      "time": "19:30",
+      "guests": 2,
+      "status": "confirmed"
+    }
+  ]
+}
