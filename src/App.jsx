@@ -9,7 +9,7 @@ import RestaurantDetails from "./pages/ResturantDetails";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Logout from "./pages/logout";
+import Logout from "./pages/Logout";
 
 import CustomerDashboard from "./pages/CustomerDashboard";
 import Favorites from "./pages/Favorites";
